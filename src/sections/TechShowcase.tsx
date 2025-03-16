@@ -14,7 +14,7 @@ const TechShowcase = () => {
       >
         🔐 The Developer's Vault
       </motion.h1>
-      <div className="space-y-10 w-full max-w-4xl">
+      <div className="space-y-10 w-full max-w-4xl p-2 md:p-0">
         {projects.map((project) => (
           <motion.div
             key={project.id}

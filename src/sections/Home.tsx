@@ -51,7 +51,7 @@ const Home = () => {
         {"<h1>Welcome to My Dev World</h1>"}
       </motion.div>
       <motion.div
-        className="absolute bottom-10 right-10 text-gray-500 font-mono text-sm opacity-50"
+        className="absolute bottom-10 right-0 md:right-10 text-gray-500 font-mono text-sm opacity-50"
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 1 }}
@@ -59,7 +59,7 @@ const Home = () => {
         {"<code>const passion = 'Coding & Creativity'</code>"}
       </motion.div>
       <motion.h1
-        className="text-4xl md:text-6xl font-extrabold tracking-wide relative z-10 cursor-pointer"
+        className="text-4xl md:text-6xl font-extrabold tracking-wide relative z-10 cursor-pointer text-center"
         ref={titleRef}
         whileHover={{
           scale: 1.1,
