@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Reset default margin and padding */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+}
+
+h1 {
+    color: rgba(0, 255, 0, 0.6)
+}
