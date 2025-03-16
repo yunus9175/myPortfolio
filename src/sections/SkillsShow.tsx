@@ -4,7 +4,7 @@ import { skills } from "../data";
 const SkillsShow = () => {
   const [selectedSkills, setSelectedSkills] = useState<string | null>(null);
   return (
-    <div className="h-screen flex flex-col items-center justify-center bg-black text-green-400 px-6 relative overflow-hidden">
+    <div className="h-screen flex flex-col items-center justify-center bg-black text-green-400 px-6 relative overflow-hidden mt-6">
       <motion.h1
         initial={{ opacity: 0, x: -70 }}
         animate={{ opacity: 1, x: 0 }}
