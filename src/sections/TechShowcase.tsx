@@ -4,13 +4,13 @@ import { projects } from "../data";
 const TechShowcase = () => {
   const [selectedProject, setSelectedProject] = useState<number | null>(null);
   return (
-    <div className="h-screen flex flex-col items-center justify-center bg-black text-green-400">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-black text-green-400 mb-25 !mt-10">
       <motion.h1
         initial={{ opacity: 0, y: 70 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
         viewport={{ once: false }}
-        className="text-3xl font-bold md:text-5xl mb-10"
+        className="text-3xl font-bold md:text-5xl mb-10 mt-3"
       >
         🔐 The Developer's Vault
       </motion.h1>
@@ -38,6 +38,17 @@ const TechShowcase = () => {
               <p>{project.description}</p>
               <p className="mt-1 text-green-300">🔧 {project.technologies}</p>
             </motion.div>
+            {project.link && (
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block mt-4 text-sm md:text-base text-black bg-green-400 px-4 py-2 rounded-md font-semibold hover:bg-green-300 transition-colors"
+
+              >
+                Visit Project
+              </a>
+            )}
             <motion.div
               animate={{ opacity: selectedProject === project.id ? 1 : 0 }}
               transition={{
@@ -45,7 +56,7 @@ const TechShowcase = () => {
                 repeat: Infinity,
                 repeatType: "reverse",
               }}
-              className="absolute inset-0 rounded-lg border-5 border-green-400 opacity-30 blur-md"
+              className="absolute inset-0 rounded-lg border-5 border-green-400 opacity-30 blur-md pointer-events-none"
             ></motion.div>
           </motion.div>
         ))}

@@ -1,31 +1,44 @@
 export const projects = [
   {
     id: 1,
-    title: "🧠 Chatbot Assistant",
+    title: "🧩 React-Suit",
     description:
-      "A conversational AI chatbot that can assist users with common queries and tasks.",
-    technologies: "React.js, Node.js, OpenAI API",
+      "A responsive React app featuring a todo list, calculator, shopping cart with product list, and infinite-scroll dog gallery with detailed views—all built with mobile-first UI.",
+    technologies: "React, TypeScript, Tailwind CSS",
+    link: "https://react-suit.vercel.app/",
   },
   {
     id: 2,
-    title: "🖼️ Image Recognition App",
+    title: "📺 YouTube Clone",
     description:
-      "An application that identifies objects in images using machine learning models.",
-    technologies: "React.js, TensorFlow.js, Node.js",
+      "Mobile-responsive YouTube replica in React: stream videos, apply filters, and browse seamlessly across devices.",
+    technologies: "React, TypeScript, Tailwind CSS,Material UI",
+    link: "https://youtube-clone-three-olive.vercel.app/",
   },
   {
     id: 3,
-    title: "🔍 Sentiment Analysis Tool",
+    title: "📌 Scrum Boards",
     description:
-      "A tool that analyzes text data to determine the sentiment (positive, negative, neutral).",
-    technologies: "React.js, Node.js, NLP libraries",
+      "Jira-inspired kanban board built with React: create tickets, set priorities, and drag cards across fully responsive lanes.",
+    technologies: "React, TypeScript, Tailwind CSS, TanStack Query,Material UI",
+    link: "https://scrum-board-xi.vercel.app/dashboard",
   },
   {
     id: 4,
-    title: "🤖 Personalized News Aggregator",
+    title: "🎬 Netflix-GPT",
     description:
-      "An AI-driven news platform that curates articles based on user preferences.",
-    technologies: "React.js, Node.js, OpenAI API",
+      "AI-enhanced Netflix clone: browse the latest trailers, search the catalog via API, and get smart movie recommendations.",
+    technologies: "React, Redux Toolkit, Tailwind CSS, TMDB API, OpenAI API",
+    link: "https://netflixgpt-f326e.web.app/",
+  },
+  {
+    id: 5,
+    title: "🎓 Students Tracker",
+    description:
+      "Full-stack Student Management System to manage students, teachers, courses, attendance, and queries/messages in one platform.",
+    technologies:
+      "Frontend: React, Material UI, React Router, Redux Toolkit, Axios. Backend: Node.js, Express, MongoDB (Mongoose), Nodemailer, OTP-based auth.",
+    link: "https://students-tracker.netlify.app/login",
   },
 ];
 
@@ -49,35 +62,47 @@ export const myProjectsList = [
   {
     id: 1,
     command: "show project 1",
-    name: "Scrum Board",
-    description: "This is the scrum board project website",
-    tech: "React, Tailwind CSS, TypeScript, Tanstack Query",
-    link: "https://scrum-board-xi.vercel.app/dashboard",
+    name: "React-Suit",
+    description:
+      "Responsive React app with todo list, calculator, shopping cart, and infinite-scroll dog gallery.",
+    tech: "React, TypeScript, Tailwind CSS",
+    link: "https://react-suit.vercel.app/",
   },
   {
     id: 2,
     command: "show project 2",
-    name: "Student Tracker",
+    name: "YouTube Clone",
     description:
-      "This website is designed to provide an easy and efficient way for students, teachers, and administrators to manage student information, including course schedules, grades, attendance records, and more.",
-    tech: "React, Tailwind CSS, TypeScript, Bootstrap UI",
-    link: "https://student-tracker-management.netlify.app/",
+      "Mobile-responsive YouTube replica for streaming videos, applying filters, and browsing across devices.",
+    tech: "React, TypeScript, Tailwind CSS, Material UI",
+    link: "https://youtube-clone-three-olive.vercel.app/",
   },
   {
     id: 3,
     command: "show project 3",
-    name: "SB Electrical Solutions",
-    description: "The SB Electrical Solutions website",
-    tech: "React, Tailwind CSS, TypeScript, Primereact UI",
-    link: "https://sb-electrical-solution-puce.vercel.app/",
+    name: "Scrum Boards",
+    description:
+      "Jira-inspired kanban board with drag-and-drop tickets, priorities, and fully responsive lanes.",
+    tech: "React, TypeScript, Tailwind CSS, TanStack Query, Material UI",
+    link: "https://scrum-board-xi.vercel.app/dashboard",
   },
   {
     id: 4,
     command: "show project 4",
-    name: "Movies App",
+    name: "Netflix-GPT",
     description:
-      "Search popular tending movies, tv shows, and top rated movies and tv shows",
-    tech: "React, Next.js, Tailwind CSS, TypeScript, Material UI",
-    link: "https://yunus-movies-app.netlify.app/",
+      "AI-enhanced Netflix clone with trailer browsing, search via API, and smart recommendations.",
+    tech: "React, Redux Toolkit, Tailwind CSS, TMDB API, OpenAI API",
+    link: "https://netflixgpt-f326e.web.app/",
+  },
+  {
+    id: 5,
+    command: "show project 5",
+    name: "Students Tracker",
+    description:
+      "Full-stack Student Management System for managing students, teachers, courses, attendance, and messages.",
+    tech:
+      "Frontend: React, Material UI, React Router, Redux Toolkit, Axios. Backend: Node.js, Express, MongoDB, Nodemailer, OTP-based auth",
+    link: "https://students-tracker.netlify.app/login",
   },
 ];

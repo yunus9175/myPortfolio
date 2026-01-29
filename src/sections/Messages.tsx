@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 const Page3 = () => {
   const messageText = [
-    "⚛️ Building with React",
+    "⚛️ Building responsive UIs with React",
     "📱 Crafting Mobile Apps with React Native",
     "💻 Enhancing with JavaScript",
     "🌐 Structuring with HTML & CSS",
@@ -16,6 +16,10 @@ const Page3 = () => {
     "🌟 UI Components with PrimeReact",
     "🎥 Animating with Motion Framer",
     "📊 Visualizing Data with FusionChart",
+    "🚀 Backend with Express.js",
+    "🗄️ Databases with MongoDB",
+    "🏗️ Building with Nest.js",
+    "⚙️ RESTful API Development",
   ];
   const [cMn, setCMn] = useState("");
   const [cMnIndex, setCMnIndex] = useState(0);
@@ -58,7 +62,7 @@ const Page3 = () => {
   return (
     <div
       id="page3"
-      className="flex justify-center items-center h-screen bg-black text-green-400 px-6"
+      className="flex justify-center items-center h-screen bg-black text-green-400 px-6 min-h-screen "
     >
       <motion.div className="relative p-6 w-[90%] md:w-[60%] min-h-[400px] border border-green-400 rounded-lg shadow-lg bg-gray-900/20 backdrop-blur-lg">
         <motion.div

@@ -76,12 +76,12 @@ const Home = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 1 }}
       >
-        A passionate <strong>Frontend Developer</strong> crafting interactive
+        A passionate <strong>Fullstack Developer</strong> crafting interactive
         experiences with 🚀
         <strong>
           ReactJS, Tailwind, Typescript, React-Router, React-Hook-Form,
-          React-Icons, Redux, Tanstack Query,API integration, GSAP & Framer
-          Motion.
+          React-Icons, Redux, Tanstack Query, API integration, GSAP, Framer
+          Motion, Node.js, Express.js, MongoDB & Nest.js.
         </strong>
       </motion.p>
       <motion.button

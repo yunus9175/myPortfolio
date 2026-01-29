@@ -51,6 +51,26 @@ const Steps = [
     description: "Adding animations for a polished user experience.",
     year: "2025",
   },
+  {
+    title: "Node.js",
+    description: "Building scalable server-side applications.",
+    year: "2025",
+  },
+  {
+    title: "Express.js",
+    description: "Creating robust REST APIs and web servers.",
+    year: "2025",
+  },
+  {
+    title: "MongoDB",
+    description: "Managing NoSQL databases with flexibility.",
+    year: "2025",
+  },
+  {
+    title: "Nest.js",
+    description: "Building enterprise-grade backend applications.",
+    year: "2026",
+  },
 ];
 
 const About = () => {
