@@ -1,5 +1,13 @@
 export const projects = [
   {
+    id: 6,
+    title: "💬 Gittider",
+    description:
+      "Full-stack platform where developers can connect and discuss work. React + Node/Express app with MongoDB, DaisyUI for responsive UI, Razorpay integration for secure payments, WebSockets (Socket.io) for real-time updates, and JWT auth stored in HTTP-only cookies for secure sessions.",
+    technologies:
+      "React, DaisyUI, Node.js, Express, MongoDB, Socket.io, Razorpay, JWT (HTTP-only cookies)",
+  },
+  {
     id: 1,
     title: "🧩 React-Suit",
     description:
@@ -37,7 +45,7 @@ export const projects = [
     description:
       "Full-stack Student Management System to manage students, teachers, courses, attendance, and queries/messages in one platform.",
     technologies:
-      "Frontend: React, Material UI, React Router, Redux Toolkit, Axios. Backend: Node.js, Express, MongoDB (Mongoose), Nodemailer, OTP-based auth.",
+      "Frontend (FE): React + Material UI, React Router (protected routes), Redux Toolkit, Axios. Backend (BE): Node.js + Express, MongoDB (Mongoose), Nodemailer, OTP-based auth and email notifications.",
     link: "https://students-tracker.netlify.app/login",
   },
 ];
