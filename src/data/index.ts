@@ -1,11 +1,12 @@
 export const projects = [
   {
     id: 6,
-    title: "💬 Gittider",
+    title: "💬 DevConnect",
     description:
       "Full-stack platform where developers can connect and discuss work. React + Node/Express app with MongoDB, DaisyUI for responsive UI, Razorpay integration for secure payments, WebSockets (Socket.io) for real-time updates, and JWT auth stored in HTTP-only cookies for secure sessions.",
     technologies:
       "React, DaisyUI, Node.js, Express, MongoDB, Socket.io, Razorpay, JWT (HTTP-only cookies)",
+    link: "https://gittinder.site/",
   },
   {
     id: 1,
