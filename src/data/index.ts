@@ -8,6 +8,15 @@ export const projects = [
       "React, DaisyUI, Node.js, Express, MongoDB, Socket.io, Razorpay, JWT (HTTP-only cookies)",
     link: "https://gittinder.site/",
   },
+   {
+    id: 5,
+    title: "🎓 Students Tracker",
+    description:
+      "Full-stack Student Management System to manage students, teachers, courses, attendance, and queries/messages in one platform.",
+    technologies:
+      "Frontend (FE): React + Material UI, React Router (protected routes), Redux Toolkit, Axios. Backend (BE): Node.js + Express, MongoDB (Mongoose), Nodemailer, OTP-based auth and email notifications.",
+    link: "https://students-tracker.netlify.app/login",
+  },
   {
     id: 1,
     title: "🧩 React-Suit",
@@ -40,15 +49,7 @@ export const projects = [
     technologies: "React, Redux Toolkit, Tailwind CSS, TMDB API, OpenAI API",
     link: "https://netflixgpt-f326e.web.app/",
   },
-  {
-    id: 5,
-    title: "🎓 Students Tracker",
-    description:
-      "Full-stack Student Management System to manage students, teachers, courses, attendance, and queries/messages in one platform.",
-    technologies:
-      "Frontend (FE): React + Material UI, React Router (protected routes), Redux Toolkit, Axios. Backend (BE): Node.js + Express, MongoDB (Mongoose), Nodemailer, OTP-based auth and email notifications.",
-    link: "https://students-tracker.netlify.app/login",
-  },
+ 
 ];
 
 export const skills = [
