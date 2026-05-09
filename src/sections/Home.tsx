@@ -35,15 +35,15 @@ const Home = () => {
     );
   }, []);
   return (
-    <div className="h-screen  flex flex-col justify-center items-center bg-black text-gray-400 px-6 relative">
+    <div className="flex h-screen flex-col items-center justify-center bg-black px-6 text-gray-400 relative">
       <motion.div
-        className="absolute w-96 h-96 bg-green-500 rounded-full blur-2xl"
+        className="absolute h-64 w-64 rounded-full bg-green-500 blur-2xl sm:h-80 sm:w-80 md:h-96 md:w-96"
         initial={{ x: "-100%", y: "-100%", opacity: 0 }}
         animate={{ x: "10%", y: "10%", opacity: 0.3 }}
         transition={{ duration: 2, ease: "easeOut" }}
       />
       <motion.div
-        className="absolute top-16 left-10 text-gray-500 font-mono text-sm opacity-50"
+        className="absolute left-4 top-12 font-mono text-xs text-gray-500 opacity-50 sm:left-8 sm:top-16 sm:text-sm"
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 1 }}
@@ -51,7 +51,7 @@ const Home = () => {
         {"<h1>Welcome to My Dev World</h1>"}
       </motion.div>
       <motion.div
-        className="absolute bottom-10 right-0 md:right-10 text-gray-500 font-mono text-sm opacity-50"
+        className="absolute bottom-8 right-4 font-mono text-xs text-gray-500 opacity-50 sm:bottom-10 sm:right-6 sm:text-sm md:right-10"
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 1 }}
@@ -59,7 +59,7 @@ const Home = () => {
         {"<code>const passion = 'Coding & Creativity'</code>"}
       </motion.div>
       <motion.h1
-        className="text-4xl md:text-6xl font-extrabold tracking-wide relative z-10 cursor-pointer text-center"
+        className="relative z-10 cursor-pointer px-2 text-center text-3xl font-extrabold tracking-wide sm:text-4xl md:text-6xl"
         ref={titleRef}
         whileHover={{
           scale: 1.1,
@@ -71,7 +71,7 @@ const Home = () => {
       </motion.h1>
 
       <motion.p
-        className="mt-4 text-lg md:text-xl font-extrabold tracking-wide relative z-10 cursor-pointer text-green-500 max-w-3xl mx-auto relative z-10 text-center"
+        className="relative z-10 mx-auto mt-4 max-w-3xl cursor-pointer px-2 text-center text-sm font-semibold tracking-wide text-green-500 sm:text-base md:text-xl"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 1 }}
@@ -86,7 +86,7 @@ const Home = () => {
       </motion.p>
       <motion.button
         ref={btnRef}
-        className="mt-6 px-6 py-3 bg-green-500 text-black rounded-full  transition-colors duration-300 z-10 cursor-pointer"
+        className="z-10 mt-6 cursor-pointer rounded-full bg-green-500 px-5 py-2.5 text-sm text-black transition-colors duration-300 sm:px-6 sm:py-3 sm:text-base"
         whileHover={{
           scale: 1.1,
           backgroundColor: "#00ff00",
