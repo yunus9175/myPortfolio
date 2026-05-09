@@ -5,9 +5,11 @@ import TechShowcase from "./sections/TechShowcase";
 import SkillsShow from "./sections/SkillsShow";
 import TerminalUI from "./sections/TerminalUI";
 import Page7 from "./sections/Page7";
+import CustomCursor from "./components/CustomCursor";
 const App = () => {
   return (
-    <div className="!bg-black">
+    <div className="min-h-screen overflow-x-hidden bg-transparent">
+      <CustomCursor />
       <Home />
       <About />
       <Messages />
